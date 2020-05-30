@@ -1,7 +1,7 @@
 //% color=#B22222 weight=75 icon="\uf168"
 namespace CNC {
     //% block
-    export function MoveAndWaitASec(k: number, d: Dirrection): void {
+    export function Move(k: number, d: Dirrection): void {
         switch (d) {
             case Dirrection.x:
 
