@@ -1,5 +1,5 @@
 {
-    "name": "cnccontroller",
+    "name": "CNC controller",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -8,11 +8,13 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "CNCcontroll.ts",
+        "CNCvar.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj"
 }
